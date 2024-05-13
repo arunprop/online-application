@@ -27,8 +27,9 @@ public class ProductService {
                 .price(productRequest.getPrice())
                 .build();
         productRepository.save(product);
-        log.info("Product {} is Saved" ,product.getId());
+        log.info("Product {} is Saved" ,product.getId())     ;
     }
+    //gygvgv
 
     public List<ProductResponse> getAllProducts() {
        List<Product> products= productRepository.findAll();
