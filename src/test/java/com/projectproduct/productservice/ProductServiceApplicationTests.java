@@ -46,6 +46,7 @@ class ProductServiceApplicationTests {
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(productRequestString))
 				.andExpect(status().isCreated());
+		////qwertyu
 	}
 
 	private ProductRequest getProductRequest() {
